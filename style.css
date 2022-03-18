@@ -1,0 +1,126 @@
+/*Navigation Bar */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-decoration: none;
+}
+nav{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    width: 100%;
+    background-image: linear-gradient(#B7D1FF, #CCCCFF,#E0C7F7, #F0C2EB);
+    font-family: 'League Spartan', sans-serif;
+}
+.logo{
+    color: #0000B8;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.nav-txt {
+    width: 1300px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+    list-style: none;
+    color: #0000B8;
+    font-weight: bold;
+    font-size: 20px;
+}
+.headers{
+    color: #0000B8;
+    font-size: 35px;
+    text-align: center;
+}
+/*Home*/
+.welcome {
+    background-image: linear-gradient(#B7D1FF, #CCCCFF,#E0C7F7, #F0C2EB);
+    height: 95vh;
+}
+.banner{
+    width: 600px;
+    top: 200px;
+    justify-content: center;
+}
+.headers2{
+    color: #0000B8;
+    font-size: 150px;
+    text-align: center;
+}
+/* About me */
+.image{ 
+
+    float:center;
+}
+
+.intro {
+    font-size: medium;
+    font-weight: 500;
+    color: #0000B8;
+    font-size: 30px;
+    text-align: center;
+    justify-content:center;
+    padding: 10px;
+    height: 92vh;
+
+
+
+}
+img {
+    justify-content:right;
+    text-align: center;
+    display:block;
+
+
+}
+
+.technologies-list{
+    text-align: center;
+    justify-content:left;
+}
+
+/* Projects */
+div.polaroid {
+    width: 80%;
+    background-color: #CCCCFF;
+  }
+  
+  div.container {
+    text-align: center;
+    padding: 10px 10px;
+  }
+/* Interests */
+.primary-int{
+    background-image: linear-gradient(#B7D1FF, #CCCCFF,#E0C7F7, #F0C2EB);
+    height: 100%;
+}
+.interests{
+    display:contents;
+    justify-content: center;
+    background-size: cover;
+    height: 100%;
+}
+/* Contact */
+.contact{
+    display: inline-flex;
+    flex-direction:column;
+    height: 92vh;
+}
+
+textarea {
+    height: 200px;
+    width: 600px;
+}
+
+.email, .name {
+    width: 600px;
+}
+
+.contact-me{
+    color: #0000B8;
+    font-size: 20px;
+    text-align: center;
+}
